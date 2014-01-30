@@ -1,0 +1,437 @@
+html, body, table, th, tr, td, p, img, hr, ul, li, h1, h2, h3, h4, h5, h6, div, form, fieldset, section {
+	padding: 0; 
+	margin: 0; 
+	border:none;
+}
+
+html, body{
+	width: 100%;
+	height: 100%;	
+}
+
+body {
+	background: #fff;
+	font-family: 'avenir_nextregular';
+	text-align: justify;
+	padding : 0px;
+	letter-spacing: 0px;
+	line-height: 1.5625em;
+	color: #fff;
+	font-weight: normal;
+	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+
+
+/****************** LINKS ******************/
+
+
+a {
+	color: #333333;
+	font-family: 'proxima_novasemibold';
+	font-weight: normal;
+	text-decoration: none;
+	-webkit-transition: color .4s linear;  
+	-moz-transition: color .4s linear;  
+	-o-transition: color .4s linear;  
+	-ms-transition: color .4s linear;  
+	transition: color .4s linear;  
+	
+}
+
+a:hover {
+	color: #999999;
+}
+
+.clear {
+	clear: both;
+}
+
+.left {
+	width: 50%;
+	float: left
+}
+
+.right {
+	width: 50%;
+	float: right;
+}
+
+
+/****************** SECTIONS ******************/
+
+.section {
+	min-width: 100%;
+	overflow: hidden;
+	padding: 0; 
+	margin: 0; 
+	position: relative;
+}
+
+.content {
+	width: 85%;
+	margin: 0px auto;
+}
+
+
+h2 {
+	font-family: 'arvobold';
+	letter-spacing: 1px;
+	font-size: 1.125em;
+	margin-bottom: 2em;
+	font-weight: normal;
+}
+/****************** HEADER ******************/
+
+.logo {
+	float: left;
+	width: 40%;
+
+}
+
+.logo img {
+	width: 190px;
+}
+
+.navigation {
+	float: right;
+	width: 60%;
+	text-align: right;
+	margin-top: 0.875em;
+}
+
+.navigation ul, .navigation ul li {
+	list-style-type: none;
+	display: inline;
+}
+
+.navigation a{
+	 font-family: 'avenir_nextdemi_bold';
+	 color: #fff;
+	 display: inline-block;
+	 font-size: 12px;
+	 text-transform: uppercase;
+	 padding: 0.5em 1.5em;
+	 letter-spacing: 1px
+}
+
+.navigation a:hover {
+	color: #313131;
+}
+
+.navigation a.contact {
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border: rgba(255,255,255,0.25) 2px solid;
+}
+
+.navigation a.contact:hover {
+	background: rgba(255,255,255,0.25);
+	color: #fff;
+}
+
+.top {
+	background: url(img/melewiheader.jpg) no-repeat left;
+	background-size: 100%;
+	font-size: 1em;
+	top: 0;
+	padding: 2em 0;
+}
+
+.top h1 {
+	font-size: 38px;
+	  font-family: 'avenir_nextmedium';
+	color: #fff;
+}
+
+.top .content2 {
+	width: 80%;
+	line-height: 3.5em;
+	text-align: center;
+	margin: 110px auto;
+}
+
+.top p {
+	margin-top: 1em;
+}
+
+
+/****************** Featured Clients ******************/
+
+.trusted {
+	background: #232323;
+	padding: 1em 0;
+	width: 100%;
+	text-align: center
+}
+
+.trusted img {
+	margin: 0 1.5em;
+}
+
+
+/****************** What We Do ******************/
+
+.whatwedo {
+	background: #fff;
+	font-family: 'avenir_nextregular';
+	font-size: 1em;
+	padding: 5em 0;
+	color: #333;
+	line-height: 2em;
+}
+
+.whatwedo h1 {
+	font-size: 30px;
+	font-family: 'avenir_nextmedium';
+	color: #333333;
+	line-height: 1.25em;
+	
+}
+
+.whatwedo h2 {
+	color: #ccc;
+}
+
+.whatwedo p {
+	margin: 1.5em auto;
+}
+
+.whatwedo .left {
+	width: 40%;
+	text-align: left;
+}
+
+.whatwedo .right {
+	width: 50%;
+	margin-top: -3em
+}
+
+.whatwedo .right .do {
+	width: 30%;
+	margin: 0.75em 2em;
+	float: left;
+	text-align: center;
+	  font-family: 'avenir_nextdemi_bold';
+}
+
+.whatwedo .right img {
+	display: block;
+	margin: 10px auto;
+}
+
+
+
+/****************** About Us ******************/
+
+
+.aboutus {
+	background: url(img/aboutus.jpg) no-repeat left;
+	background-size: 100%;
+	font-size: 1em;
+	top: 0;
+	line-height: 2em;
+	padding: 4em 0;
+}
+
+.aboutus h1 {
+	font-size: 30px;
+	font-family: 'avenir_nextmedium';
+	color: #fff;
+	text-align: center;
+	line-height: 40px;
+	margin-bottom: 1.5em;
+}
+
+.aboutus .content2 {
+	width: 80%;
+	margin: 0 auto;
+}
+
+.aboutus p {
+	margin: 0 auto 1.5em;
+	width: 45%;
+	text-align: left;
+}
+
+.aboutus h2 {
+	color: #6d888f;
+	text-align: center;
+	margin-bottom: 1.25em
+}
+
+
+/****************** TEAM ******************/
+
+.team {
+	background: #fff;
+	background-size: 100%;
+	font-size: 1em;
+	top: 0;
+	color: #333;
+	line-height: 1.8125em;
+	padding: 4em 0;
+}
+
+.team .left {
+	float: left;
+	width: 25%;
+	text-align: left;
+	padding: 4%
+}
+
+.team h2 {
+	color: #ccc;
+}
+
+.team h1 {
+	font-size: 30px;
+	font-family: 'avenir_nextmedium';
+	color: #333;
+	line-height: 40px;
+	margin-bottom: 1.5em;
+}
+
+.team .image img {
+	display: block;
+	width: 90%;
+	margin: 1em auto 2em;
+}
+
+.team p {
+	margin-top: 1.25em;
+}
+
+.team .name {
+	font-family: 'avenir_nextmedium';
+	font-size: 28px;
+	margin-bottom:5px;
+}
+
+.team .position {
+	font-family: 'arvoregular';
+	font-size: 15px;
+	margin-bottom:8px;
+	color: #999999;
+}
+
+.team .place {
+	font-style: italic;
+
+}
+
+.team .place img {
+	width: 20px;
+	margin-right: 0.5em;
+	vertical-align: -5px
+}
+
+.team .place.mel {
+	color: #ffc40f;
+}
+
+.team .place.cleo {
+	color: #3db9dd;
+}
+
+.team .place.mary {
+	color: #c472e6;
+}
+
+.team .description {
+	height: 480px;
+	margin-top: 2em
+}
+
+.team .social img{
+	height: 20px;
+	vertical-align: -5px;
+	margin-right: 1em
+}
+
+a.next {
+	 font-family: 'avenir_nextdemi_bold';
+	 font-size: 11px;
+	 letter-spacing: 1px;
+	 text-transform: uppercase;
+	 color: #e5e5e5;
+	 border: 2px #e5e5e5 solid;
+	 -moz-border-radius: 5px;
+	 border-radius: 5px;
+	 -webkit-border-radius: 5px;
+	 padding: 5px 12px;
+}
+
+a.next:hover{
+	color: #666;
+	border: 2px #bfbfbf solid;
+}
+
+
+
+@font-face {
+    font-family: 'avenir_nextdemi_bold';
+    src: url('fonts/avenirnext-demibold-webfont.eot');
+    src: url('fonts/avenirnext-demibold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/avenirnext-demibold-webfont.woff') format('woff'),
+         url('fonts/avenirnext-demibold-webfont.ttf') format('truetype'),
+         url('fonts/avenirnext-demibold-webfont.svg#avenir_nextdemi_bold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'avenir_nextregular';
+    src: url('fonts/avenirnext-regular-webfont.eot');
+    src: url('fonts/avenirnext-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/avenirnext-regular-webfont.woff') format('woff'),
+         url('fonts/avenirnext-regular-webfont.ttf') format('truetype'),
+         url('fonts/avenirnext-regular-webfont.svg#avenir_nextregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'avenir_nextmedium';
+    src: url('fonts/avenirnext-medium-webfont.eot');
+    src: url('fonts/avenirnext-medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/avenirnext-medium-webfont.woff') format('woff'),
+         url('fonts/avenirnext-medium-webfont.ttf') format('truetype'),
+         url('fonts/avenirnext-medium-webfont.svg#avenir_nextmedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'arvobold';
+    src: url('fonts/arvo-bold-webfont.eot');
+    src: url('fonts/arvo-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/arvo-bold-webfont.woff') format('woff'),
+         url('fonts/arvo-bold-webfont.ttf') format('truetype'),
+         url('fonts/arvo-bold-webfont.svg#arvobold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'arvoregular';
+    src: url('fonts/arvo-regular-webfont.eot');
+    src: url('fonts/arvo-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/arvo-regular-webfont.woff') format('woff'),
+         url('fonts/arvo-regular-webfont.ttf') format('truetype'),
+         url('fonts/arvo-regular-webfont.svg#arvoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
